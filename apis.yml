@@ -1,0 +1,33 @@
+aid: apache-ant
+name: Apache Ant
+description: >-
+  Apache Ant is a Java-based build tool that provides a flexible and extensible framework for automating software build processes. It uses XML-based configuration files and supports a rich set of built-in tasks along with a plugin API for custom task development.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Build Tool
+  - Java
+  - Automation
+  - CI/CD
+created: '2026-03-16'
+modified: '2026-03-16'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/apache-ant/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: apache-ant:apache-ant
+    name: Apache Ant
+    description: >-
+      Apache Ant provides a Java API for programmatic build execution, custom task development, and build file manipulation, along with the Ivy dependency management sub-project for artifact resolution.
+    humanURL: https://ant.apache.org/manual/index.html
+    tags:
+      - Build
+      - Java
+    properties:
+      - type: Documentation
+        url: https://ant.apache.org/manual/index.html
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
