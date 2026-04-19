@@ -1,0 +1,133 @@
+vocabulary: 1.0.0
+info:
+  provider: Apache Ant
+  description: Domain vocabulary for Apache Ant covering build automation tasks,
+    targets, properties, and the Ivy dependency management ecosystem.
+  created: '2026-04-19'
+  modified: '2026-04-19'
+operational:
+  apis:
+  - name: Apache Ant Build Tool
+    namespace: ant-build
+    version: 1.10.17
+    status: active
+  - name: Apache Ivy
+    namespace: ant-ivy
+    version: 2.5.2
+    status: active
+  resources:
+  - name: targets
+    api: ant-build
+    actions:
+    - run
+    - list
+    - describe
+  - name: tasks
+    api: ant-build
+    actions:
+    - execute
+    - configure
+  - name: properties
+    api: ant-build
+    actions:
+    - get
+    - set
+  - name: filesets
+    api: ant-build
+    actions:
+    - include
+    - exclude
+  - name: dependencies
+    api: ant-ivy
+    actions:
+    - resolve
+    - retrieve
+    - publish
+  - name: modules
+    api: ant-ivy
+    actions:
+    - resolve
+    - install
+    - deliver
+  actions:
+  - name: compile
+    pattern: build
+  - name: test
+    pattern: validate
+  - name: package
+    pattern: build
+  - name: deploy
+    pattern: write
+  - name: resolve
+    pattern: read
+  - name: clean
+    pattern: destructive
+  - name: run
+    pattern: execute
+  schemas:
+    core:
+    - Target
+    - Task
+    - Property
+    - FileSet
+    - Path
+    ivy:
+    - Dependency
+    - Module
+    - Configuration
+    - Artifact
+  parameters:
+    identifiers:
+    - name
+    - target
+    - project
+    - organisation
+    - module
+    - revision
+    filters:
+    - includes
+    - excludes
+    - conf
+    - type
+  enums:
+    taskTypes:
+    - javac
+    - java
+    - jar
+    - war
+    - ear
+    - copy
+    - delete
+    - mkdir
+    - echo
+    - exec
+    - zip
+    - unzip
+    - junit
+    - junitreport
+    ivyConfs:
+    - compile
+    - runtime
+    - test
+    - provided
+  authentication:
+    schemes: []
+capability:
+  workflows: []
+  personas:
+  - id: java-developer
+    name: Java Developer
+    description: Developers using Ant to build and package Java applications.
+    workflows: []
+  - id: build-engineer
+    name: Build Engineer
+    description: Engineers maintaining and optimizing Ant build systems.
+    workflows: []
+  domains:
+  - Build Automation
+  - Dependency Management
+  - CI/CD
+  - Java
+  namespaces: []
+  binds: []
+crossReference: []
