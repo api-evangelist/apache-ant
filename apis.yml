@@ -69,7 +69,7 @@ common:
     url: https://www.apache.org/licenses/
   - type: ChangeLog
     url: https://ant.apache.org/antnews.html
-  - type: SDK
+  - type: SDKs
     url: https://search.maven.org/artifact/org.apache.ant/ant
     title: Maven Central (org.apache.ant:ant)
   - type: Features
