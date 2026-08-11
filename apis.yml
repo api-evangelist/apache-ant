@@ -63,6 +63,12 @@ apis:
       - type: GettingStarted
         url: https://ant.apache.org/ivy/history/latest-milestone/tutorial/start.html
 common:
+  - type: SecurityPolicy
+    url: https://github.com/apache/ant/blob/master/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/ant/blob/master/CONTRIBUTING.md
   - type: VulnerabilityDisclosure
     url: security/apache-ant-vulnerability-disclosure.yml
   - type: DomainSecurity
