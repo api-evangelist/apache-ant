@@ -4,16 +4,20 @@ description: >-
   Apache Ant is a Java-based build tool and library developed by the Apache Software Foundation, used to automate software build processes. It uses XML-based build files to define targets and tasks for compiling, testing, packaging, and deploying Java applications. Ant provides a Java API for programmatic build execution, custom task (Antlib) development, and build file manipulation. The companion Apache Ivy project provides dependency management and artifact resolution for Ant-based builds.
 type: Index
 deliveryModel:
-  model: unknown
+  model: saas
+  license_evidence:
+    not_product:
+    - apache/ant
+    - apache/ant-ivy
   open_source: unknown
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Hosted service · you call their endpoint
   confidence: low
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -36,7 +40,7 @@ tags:
   - Build Tools
   - CI/CD
   - Java
-  - Open-Source
+  - Open Source
   - XML
 tags_raw:
   - Apache
@@ -46,6 +50,7 @@ tags_raw:
   - Java
   - Open Source
   - XML
+  - Open-Source
 created: '2026-03-16'
 modified: '2026-04-19'
 url: >-
