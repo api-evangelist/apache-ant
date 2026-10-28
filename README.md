@@ -1,4 +1,4 @@
-# Apache Ant (apache-ant)
+# Apache Ant
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,105 +66,113 @@
 
 Apache Ant is a Java-based build tool and library developed by the Apache Software Foundation, used to automate software build processes. It uses XML-based build files to define targets and tasks for compiling, testing, packaging, and deploying Java applications. Ant provides a Java API for programmatic build execution, custom task (Antlib) development, and build file manipulation. The companion Apache Ivy project provides dependency management and artifact resolution for Ant-based builds.
 
-**URL:** [https://ant.apache.org/](https://ant.apache.org/)
+**Areas:** Apache · Automation · Build Tools · CI/CD · Java · Open Source · XML
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Ant on APIs.io
 
-## Tags
+Everything profiled for Apache Ant is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-ant/](https://apis.io/providers/apache-ant/)** — or go straight to one of the APIs or properties below.
 
- - Apache, Automation, Build Tool, CI/CD, Java, Open Source, XML
+### APIs (2)
 
-## Timestamps
+- [Apache Ant Build Tool](https://apis.io/apis/apache-ant/apache-ant-build-tool/) — Apache Ant provides a Java library and command-line tool for automating build processes through XML-based build files. It supports compilation, testing,…
+- [Apache Ivy](https://apis.io/apis/apache-ant/apache-ivy/) — Apache Ivy is a dependency manager for Ant builds, enabling declaration, resolution, and retrieval of project dependencies from Maven repositories and other…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Ant Build Tool
-Apache Ant provides a Java library and command-line tool for automating build processes through XML-based build files. It supports compilation, testing, packaging, and deployment of Java and non-Java projects. Ant exposes a Java API for programmatic build execution and custom task (Antlib) development.
+#### Vocabulary (1)
 
-**Human URL:** [https://ant.apache.org/manual/index.html](https://ant.apache.org/manual/index.html)
+The provider's domain terms, defined.
 
-#### Tags
+- [Apache Ant Vocabulary](https://apis.io/vocabularies/apache-ant/apache-ant-vocabulary/)
 
- - Build, Java, XML
+#### Security (2)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://ant.apache.org/manual/index.html)
-- [GettingStarted](https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html)
-- [APIReference](https://ant.apache.org/manual/api/index.html)
+- [Apache Ant Domain Security](https://apis.io/security/apache-ant/apache-ant-domain-security/)
+- [Apache Ant Vulnerability Disclosure](https://apis.io/security/apache-ant/apache-ant-vulnerability-disclosure/)
 
-### Apache Ivy
-Apache Ivy is a dependency manager for Ant builds, enabling declaration, resolution, and retrieval of project dependencies from Maven repositories and other sources.
+#### Plans and pricing (1)
 
-**Human URL:** [https://ant.apache.org/ivy/](https://ant.apache.org/ivy/)
+Published plans, tiers and prices.
 
-#### Tags
+- [Apache Ant Plans Pricing](https://apis.io/plans/apache-ant/apache-ant-plans-pricing/)
 
- - Dependency Management, Java, Maven
+#### Rate limits (1)
 
-#### Properties
+Published request limits.
 
-- [Documentation](https://ant.apache.org/ivy/)
-- [GettingStarted](https://ant.apache.org/ivy/history/latest-milestone/tutorial/start.html)
+- [Apache Ant Rate Limits](https://apis.io/rate-limits/apache-ant/apache-ant-rate-limits/)
 
-## Common Properties
+#### FinOps (1)
 
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository (Ant)](https://github.com/apache/ant)
-- [GitHubRepository (Ivy)](https://github.com/apache/ant-ivy)
+What the API costs to run, by operation.
+
+- [Apache Ant Finops](https://apis.io/finops/apache-ant/apache-ant-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Documentation](https://ant.apache.org/)
-- [GettingStarted](https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html)
-- [FAQ](https://ant.apache.org/faq.html)
+- [Getting started](https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html)
 - [Support](https://ant.apache.org/mail.html)
-- [TermsOfService](https://www.apache.org/licenses/)
-- [ChangeLog](https://ant.apache.org/antnews.html)
-- [Maven Central (org.apache.ant:ant)](https://search.maven.org/artifact/org.apache.ant/ant)
+- [Changelog](https://ant.apache.org/antnews.html)
+- [Terms of service](https://www.apache.org/licenses/)
+- [GitHub](https://github.com/apache)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| XML Build Files | Define build processes using XML-based build files (build.xml) with targets, properties, and tasks. |
-| Rich Built-In Tasks | Over 150 built-in tasks for file operations, compilation, testing, archiving, and network operations. |
-| Custom Antlib Tasks | Extend Ant with custom task libraries (Antlibs) written in Java for project-specific automation. |
-| Java API | Programmatic Java API for embedding Ant build execution within applications and test frameworks. |
-| Cross-Platform | Runs on any Java-supported platform including Windows, macOS, and Linux. |
-| Apache Ivy Integration | First-class dependency management via Apache Ivy for resolving Maven and Ivy repositories. |
-| CI/CD Integration | Integrates with Jenkins, TeamCity, Bamboo, and other CI systems via command-line invocation. |
-| Java Version Compatibility | Supports Java 8 and higher (Ant 1.10.x), with broad backward compatibility for legacy build files. |
+**Kin Score 22.4** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Java Application Builds | Compile, test, package, and deploy Java applications using declarative XML build scripts. |
-| Legacy Build Automation | Maintain and modernize legacy Java build systems that predate Maven and Gradle. |
-| Custom Build Orchestration | Orchestrate complex multi-step build processes with conditional logic and property-driven configuration. |
-| Ant-Based CI Pipelines | Run Ant targets as build steps in Jenkins, TeamCity, or other CI/CD systems. |
-| Dependency Management with Ivy | Resolve and cache project dependencies from Maven Central and custom repositories using Apache Ivy. |
-| Non-Java Build Automation | Automate C/C++ or other non-Java project builds using Ant's exec and cc tasks. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Apache Maven | Interoperate with Maven repositories for dependency resolution via Apache Ivy. |
-| Jenkins | Invoke Ant targets as Jenkins build steps using the Ant Jenkins plugin. |
-| Eclipse | Built-in Ant support in Eclipse IDE for running and debugging Ant build files. |
-| IntelliJ IDEA | Native Ant tool window in IntelliJ IDEA for running and navigating Ant targets. |
-| JUnit | Built-in JUnit task for running and reporting unit tests within Ant builds. |
-| Checkstyle | Checkstyle Ant task for static code analysis and style enforcement. |
-| FindBugs / SpotBugs | FindBugs and SpotBugs Ant tasks for static analysis of Java bytecode. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Vocabulary
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-ant/](https://apis.io/providers/apache-ant/).
 
-- [Apache Ant Vocabulary](vocabulary/apache-ant-vocabulary.yaml) — Domain taxonomy mapping 6 resources, 7 actions, and 2 personas for Ant build automation and Ivy dependency management
+## How this profile is made
 
-## Maintainers
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-**FN:** Kin Lane
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Ant: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**Email:** info@apievangelist.com
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-ant/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
